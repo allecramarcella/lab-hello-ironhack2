@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;800;900&display=swap');
+
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 6vmin;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1a273f;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header div {
+  margin-left: 80px;
+  width: 50vw;
+}
+
+.App-header h1 {
+  font-size: 8vw;
+  line-height: 8.5vw;
+  margin-top: 12vh;
+  margin-bottom: 0;
+}
+
+.App-header p {
+  font-size: 1.8vw;
+  line-height: 2.4vw;
+  margin-bottom: 10vh;
+}
+
+.App-link {
+  color:  #1a273f;
+  padding: 20px 22px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.8vw;
+}
+
+.Features {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 100px 80px;
+}
+
+.Features img {
+  width: 13vw;
+}
+
+.Features div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  width: 15vw;
+}
+
+.Features h2 {
+  color: #1a273f;
+  font-size: 2.5vw;
+  margin: 1vw 0 0 1vw;
+}
+
+.Features p {
+  color: grey;
+  margin: 0.5vw 0 0 1vw;
+  font-size: 1.5vw;
+
 }
